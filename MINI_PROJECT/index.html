@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech & Speech to Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    </div>
+    <header style="color:grey;">
+        <h1>TEXT TO SPEECH AND SPEECH TO TEXT CONVERTER</h1>
+    </header>
+    <section>
+        <h2 id="convtext" style="text-align: center;">TEXT TO SPEECH:</h2>
+        <textarea id="text-input" placeholder="Type your text here..."></textarea>
+        <div class="btn">
+            <button onclick="return textToSpeech()">Text to Speech</button>
+            <button onclick="return clrText()">Clear Text</button>
+        </div>
+
+        <label for="text-language"><b>Voice Language:</b></label>
+        <select id="text-language">
+            <option value="en-US">English</option>
+            <option value="hi-IN">Hindi</option>
+            <option value="gu-IN">Gujarati</option>
+            <option value="kn-IN">Kannada</option>
+        </select>
+        <h2 id="convtext" style="text-align: center;">SPEECH TO TEXT:</h2>
+
+
+        <div id="result"></div>
+        <div class="btn">
+            <button onclick="return speechToText()">Speech to Text</button>
+            <button onclick="return clrResult()">Clear Result</button>
+        </div>
+
+        <label for="speech-language"><b>Text Language:</b></label>
+        <select id="speech-language">
+            <option value="en-US">English (US)</option>
+            <option value="hi-IN">Hindi (India)</option>
+            <option value="gu-IN">Gujarati</option>
+            <option value="kn-IN">Kannada</option>
+
+        </select>
+    </section>
+    <footer style="color:grey;">
+
+        &copy; 2023 All rights reserved
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

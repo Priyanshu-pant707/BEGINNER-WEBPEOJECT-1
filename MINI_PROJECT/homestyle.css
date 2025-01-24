@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(back.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(22, 22, 60);
+    height: 80px;
+    border-radius: 34px;
+    color: rgb(126, 136, 165);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left h1:hover {
+    color: aliceblue;
+    filter: drop-shadow(5px 5px 10px white);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(126, 136, 165);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: aliceblue;
+    filter: drop-shadow(5px 5px 10px white);
+}
+
+.left {
+    font-size: 23px;
+}
+
+.about {
+    background-color: rgba(0, 0, 0, 0.88);
+    color: rgb(225, 219, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50vh;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 0%;
+    border: none;
+    border-radius: 23px;
+    font-size: 16px;
+    padding: 20px;
+
+}
+
+.about p {
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0%;
+    width: 90%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 10px;
+    height: 150px;
+    width: 300px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 50px rgb(126, 136, 165);
+}
+
+.btn:hover {
+    filter: brightness(2);
+}
+
+.btn button {
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(78, 30, 123);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(22, 22, 60);
+    color: rgb(126, 136, 165);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
